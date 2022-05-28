@@ -13,10 +13,7 @@ app.use(express.json());
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-  res.send(`
-    <h1>Welcome to APIQUINAS</h1>
-    <p>Talk to our API by using "/apiquinas/quote"</p>
-  `);
+  res.render('index');
 });
 
 app.get('/apiquinas/quotes', (req, res) => {
