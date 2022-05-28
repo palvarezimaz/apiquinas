@@ -20,6 +20,6 @@ app.get('/apiquinas/quotes', (req, res) => {
   res.json(quotes);
 });
 
-app.listen(proces.env.PORT || 3000, () =>
+app.listen(process.env.PORT || 3000, () =>
   console.log(`server listening to port: ${3000}`)
 );
