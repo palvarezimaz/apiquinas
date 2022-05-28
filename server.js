@@ -4,9 +4,9 @@ let quotes = require('./quotes');
 const app = express();
 const port = 8080;
 
-app.listen(proces.env.PORT || port, () =>
-  console.log(`server listening to port: ${port}`)
-);
+// app.listen(proces.env.PORT || 8080, () =>
+//   console.log(`server listening to port: ${8080}`)
+// );
 
 app.set('view engine', 'ejs');
 app.use(express.json());
@@ -22,3 +22,7 @@ app.get('/', (req, res) => {
 app.get('/apiquinas/quotes', (req, res) => {
   res.json(quotes);
 });
+
+app.listen(proces.env.PORT || 8080, () =>
+  console.log(`server listening to port: ${8080}`)
+);
