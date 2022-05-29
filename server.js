@@ -1,5 +1,5 @@
 const express = require('express');
-let quotes = require('./quotes');
+let quotes = require('./views/quotes');
 
 const app = express();
 // const port = 3000;
