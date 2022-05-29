@@ -1,5 +1,5 @@
 const express = require('express');
-let quotes = require('./views/quotes');
+let quotes = require('./views/quotes-list');
 
 const app = express();
 // const port = 3000;
@@ -16,8 +16,20 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
-app.get('/apiquinas/quotes', (req, res) => {
+app.get('/quotes', (req, res) => {
+  const quote = req.query;
+  res.render('quotes', {
+    quote: quotes,
+  });
+});
+
+app.get('/apiquinas/all-quotes', (req, res) => {
   res.json(quotes);
+});
+
+app.get('/apiquinas/one-quote', (req, res) => {
+  var randomQuote = Math.floor(Math.random() * quotes.length);
+  res.json(quotes[randomQuote]);
 });
 
 app.listen(process.env.PORT || 3000, () =>
