@@ -1,7 +1,8 @@
-h1 {
-  text-align: center;
-}
-
 body {
+  margin: 50px auto;
+  text-align: center;
+  max-width: 650px;
   background-color: goldenrod;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 5px;
 }
