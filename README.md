@@ -11,6 +11,12 @@ I do hope that you can learn from those great thinkers as much as I did.
 This is an Express.js App deployed in Heroku
 (https://apiquinas.herokuapp.com/)[https://apiquinas.herokuapp.com/]
 
+This repository has a Dockerfile and the the Docker image can be downloaded (here)[https://hub.docker.com/r/palvarezimaz/apiquinas]
+
+Or from the termina:
+
+`docker pull palvarezimaz/apiquinas`
+
 ## License
 
 This app was created for educational purposes in 2022, under the <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License.
