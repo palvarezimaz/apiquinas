@@ -9,11 +9,11 @@ I do hope that you can learn from those great thinkers as much as I did.
 ## Technical note:
 
 This is an Express.js App deployed in Heroku
-(https://apiquinas.herokuapp.com/)[https://apiquinas.herokuapp.com/]
+[here](https://apiquinas.herokuapp.com/).
 
-This repository has a Dockerfile and the the Docker image can be downloaded (here)[https://hub.docker.com/r/palvarezimaz/apiquinas]
+This repository has a Dockerfile and the the Docker image can be downloaded (here)[https://hub.docker.com/r/palvarezimaz/apiquinas].
 
-Or from the termina:
+Or from the terminal:
 
 `docker pull palvarezimaz/apiquinas`
 
