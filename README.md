@@ -8,8 +8,7 @@ I do hope that you can learn from those great thinkers as much as I did.
 
 ## Technical note:
 
-This is an Express.js App deployed in Heroku at
-[https://apiquinas.herokuapp.com/](https://apiquinas.herokuapp.com/).
+This is an Express.js App deployed via GitHub in [https://palvarezimaz.github.io/apiquinas/](https://palvarezimaz.github.io/apiquinas/)
 
 This repository has a Dockerfile and the the Docker image can be downloaded from [https://hub.docker.com/r/palvarezimaz/apiquinas](https://hub.docker.com/r/palvarezimaz/apiquinas).
 
